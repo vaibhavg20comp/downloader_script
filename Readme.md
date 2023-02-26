@@ -28,14 +28,14 @@ The script uses the following commands:
 
 Suppose you have a file `urls.txt` containing the following URLs:
 
-https://example.com/file1.txt
-https://example.com/file2.txt
-https://example.com/file3.txt
+https://example.com/file1.txt <br>
+https://example.com/file2.txt <br>
+https://example.com/file3.txt <br>
 
 
 You can use the script to download these files and write the status of each download to `output.txt` by running the following command:
 
-./download.sh urls.txt
+./downloader.sh urls.txt
 
 After the downloads are complete, the script will print "All downloads completed successfully" to the console, and you can view the status of each file in `output.txt`.
 
